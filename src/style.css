@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+:root {
+    --color-primary: 47 100 140;
+    --color-header: 42 42 42;
+    --color-body-1: 26 26 26;
+    --color-body-2: 30 30 30;
+    --color-btn-bg: 30 30 30;
+    --color-btn-bg-hover: 35 35 35;
+}
