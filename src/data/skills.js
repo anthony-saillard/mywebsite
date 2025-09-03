@@ -30,19 +30,19 @@ export const skills = {
             name: 'HTML',
             icon: 'src/svg/logo/HTML5.svg',
             alt: 'Logo HTML',
-            level: 4
+            level: 3
         },
         {
             name: 'CSS et SCSS',
             icon: 'src/svg/logo/CSS.svg',
             alt: 'Logo CSS',
-            level: 4
+            level: 3
         },
         {
             name: 'JavaScript',
             icon: 'src/svg/logo/JavaScript.svg',
             alt: 'Logo JavaScript',
-            level: 4
+            level: 3
         },
         {
             name: 'PHP (POO)',

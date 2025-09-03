@@ -1,6 +1,6 @@
 <template>
   <section id="projects" class="py-20 bg-body2 text-white">
-    <div class="container mx-auto px-20">
+    <div class="container mx-auto px-6">
       <h1 class="text-4xl md:text-5xl font-bold text-center mb-16">
         Projets
       </h1>

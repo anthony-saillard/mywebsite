@@ -6,44 +6,48 @@
 
     <div class="space-y-6 px-6 max-w-6xl">
       <p class="text-md md:text-lg">
-        <strong class="font-semibold">Développeur front-end</strong> passionné par l’<strong
-          class="font-semibold">UI/UX</strong>, je conçois et intègre des interfaces <strong class="font-semibold">ergonomiques
-        et accessibles</strong>.<br><br>
-        Diplômé d’un <strong class="font-semibold">BUT Informatique</strong>, j’ai travaillé sur des projets allant
-        d’<strong class="font-semibold">applications web de gestion</strong> à des <strong class="font-semibold">solutions
-        de télésurveillance médicale</strong>, en transformant les besoins des utilisateurs en expériences fluides et
-        esthétiques, alliant performance technique et design réfléchi.
+        <span class="font-semibold">Développeur front-end</span> passionné par l’<span
+          class="font-semibold">UI/UX</span>, je conçois et intègre des interfaces <span class="font-semibold">ergonomiques
+        et accessibles</span>.<br><br>
+        Diplômé d’un <span class="font-semibold">BUT Informatique</span>, j’ai travaillé sur des projets variés,
+        allant d’<span class="font-semibold">applications web de gestion</span> à des <span class="font-semibold">solutions
+        de télésurveillance médicale</span>.<br><br>
+        Mon objectif est de <span class="font-semibold">transformer les besoins des utilisateurs en expériences fluides, esthétiques et performantes</span>.<br>
+        À travers mon travail, je souhaite aider les autres en créant des outils numériques qui améliorent leur
+        quotidien et leur confort d’utilisation.
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 bg-header/40 rounded-xl p-6">
         <div>
-          <span class="text-gray-300">Âge</span><br>
-          <span class="font-semibold">{{ age }} ans</span>
+          <span class="text-gray-300">Né le</span><br>
+          <span class="font-semibold">27 novembre 2004 ({{ age }} ans)</span>
         </div>
         <div>
-          <span class="text-gray-300">Permis</span><br>
-          <span class="font-semibold">Permis B</span>
+          <span class="text-gray-300">Mobilité</span><br>
+          <span class="font-semibold">Permis B - Véhiculée</span>
         </div>
       </div>
 
-      <div class="bg-header/40 rounded-xl p-6">
-        <span class="text-gray-300">Diplômes</span><br>
-        <ul class="list-disc list-inside space-y-1 font-semibold">
-          <li>2025 - BUT Informatique - IUT de Valence (26)</li>
-          <li>2022 - Baccalauréat STI2D - Lycée Galilée, Vienne (38)</li>
-        </ul>
+      <div class="bg-header/40 rounded-xl p-6 space-y-3">
+        <span class="font-bold text-lg">Diplômes</span><br>
+        <div class="space-y-3">
+          <div class="flex items-start gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
+            <div>
+              <p class="font-semibold text-white">2025 - BUT Informatique</p>
+              <p class="text-gray-300 text-sm">IUT de Valence (26)</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
+            <div>
+              <p class="font-semibold text-white">2022 - Baccalauréat STI2D</p>
+              <p class="text-gray-300 text-sm">Lycée Galilée, Vienne (38)</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="bg-header/40 rounded-xl p-6">
-        <span class="text-gray-300">Langues</span><br>
-        <ul class="list-disc list-inside space-y-1 font-semibold">
-          <li>Anglais - Intermédiaire (A2)</li>
-          <li>Espagnol - Notions (A1)</li>
-        </ul>
-      </div>
-
-      <div class="bg-header/40 rounded-xl p-6">
-        <span class="text-gray-300">Centres d’intérêt</span><br>
+      <div class="bg-header/40 rounded-xl p-6 space-y-3">
+        <span class="font-bold text-lg">Centres d’intérêt</span><br>
         <ul class="list-disc list-inside space-y-1 font-semibold">
           <li>Sport d’eau vive</li>
           <li>Cyclisme</li>

@@ -1,9 +1,9 @@
 <template>
   <section id="hero" class="bg-body1 text-white">
     <div
-        class="container mx-auto h-screen w-full flex flex-col md:flex-row space-y-6 md:gap-12 justify-center items-center z-20">
+        class="container mx-auto pt-60 md:pt-40 lg:pt-60 pb-40 md:pb-10 lg:pb-40 w-full flex flex-col md:flex-row space-y-6 md:gap-12 justify-center items-center z-20">
       <div class="space-y-8">
-        <h1 class="text-2xl sm:text-4xl md:text-4xl font-bold">
+        <h1 class="text-2xl sm:text-4xl md:text-4xl lg:text-5xl font-bold px-4">
           Bonjour,<br>
           Je suis <span class="text-primary">Anthony Saillard</span><br>
           Développeur Front-end - UI/UX
@@ -24,16 +24,16 @@
         </div>
       </div>
 
-      <div class="flex justify-center">
+      <div class="hidden md:flex justify-center">
         <img
             src="../img/me.jpg"
             alt="Photo de Anthony Saillard"
-            class="w-auto h-80 md:w-auto md:h-96 shadow-2xl" style="border-radius: 60px"
+            class="w-auto h-80 object-cover md:w-auto md:h-96 shadow-2xl" style="border-radius: 60px"
         >
       </div>
     </div>
 
-    <img src="../svg/wave/WaveAproposTop.svg" alt="Wave decoration"/>
+    <img src="../svg/wave/WaveAboutTop.svg" alt="Wave decoration"/>
   </section>
 </template>
 

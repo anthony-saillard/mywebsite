@@ -1,10 +1,10 @@
 <template>
   <div
-      class="rounded-xl px-8 py-6 bg-header bg-opacity-35 shadow-md transition-all duration-300 hover:scale-105 flex items-center text-center group relative overflow-hidden">
+      class="rounded-xl px-8 py-6 bg-header bg-opacity-35 shadow-md flex items-center text-center group relative overflow-hidden">
     <img
         :src="icon"
         :alt="alt || name"
-        class="w-12 h-12 mr-4 group-hover:scale-110 transition-transform duration-300"
+        class="w-12 h-12 mr-4"
     />
     <p class="text-sm font-medium">{{ name }}</p>
 
@@ -30,32 +30,28 @@ const props = defineProps({
     required: true
   },
   alt: String,
-  level: Number // 1 = low, 2 = medium, 3 = high
+  level: Number
 })
 
 const levelClass = computed(() => {
   const lvl = props.level ?? 1
   switch (lvl) {
-    case 5:
-      return 'from-purple-900'
     case 4:
-      return 'from-blue-900'
+      return 'from-purple-900'
     case 3:
-      return 'from-green-900'
+      return 'from-blue-900'
     case 2:
-      return 'from-yellow-900'
+      return 'from-green-900'
     default:
-      return 'from-red-900'
+      return 'from-yellow-900'
   }
 })
 
 const levelLabel = computed(() => {
   const lvl = props.level ?? 1
   switch (lvl) {
-    case 5:
-      return 'Expert'
     case 4:
-      return 'Avancé ++'
+      return 'Expert'
     case 3:
       return 'Avancé'
     case 2:
