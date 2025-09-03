@@ -54,7 +54,7 @@
         <a
             href="../CV Anthony Saillard.pdf"
             target="_blank"
-            class="px-4 py-3 bg-primary bg-opacity-50 hover:bg-opacity-70 hover:font-semibold "
+            class="px-4 py-3 bg-primary bg-opacity-50 font-semibold hover:bg-opacity-70"
         >
           Télécharger mon CV
         </a>

@@ -1,13 +1,13 @@
 <template>
   <section id="skills" class="bg-body1 text-white">
-    <img src="../../svg/wave/WaveAproposBottom.svg" class="w-full" alt="Wave decoration"/>
+    <img src="../../svg/wave/WaveAboutBottom.svg" class="w-full" alt="Wave decoration"/>
 
     <div class="container mx-auto px-4 py-40">
       <h1 class="text-4xl md:text-5xl font-bold text-center mb-16">
         Compétences
       </h1>
 
-      <div class="space-y-16 px-20 lg:px-40">
+      <div class="space-y-16 px-5 sm:px-20 lg:px-40">
         <!-- Languages -->
         <div>
           <h2 class="text-2xl md:text-3xl font-bold mb-8">
@@ -102,7 +102,7 @@
       </div>
     </div>
 
-    <img src="../../svg/wave/WaveProjetsTop.svg" class="w-full" alt="Wave decoration"/>
+    <img src="../../svg/wave/WaveProjectsTop.svg" class="w-full" alt="Wave decoration"/>
   </section>
 </template>
 
